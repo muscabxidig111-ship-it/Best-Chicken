@@ -643,8 +643,7 @@ p {
     margin-bottom: 3rem;
 
 }
-
-.contianer h2::after {
+ .contianer h2::after {
     content: "";
     position: absolute;
     bottom: -6px;
@@ -654,15 +653,6 @@ p {
     background: var(--primary-color);
 }
 
-.contianer h3::after {
-    content: "";
-    position: absolute;
-    bottom: -6px;
-    width: 100px;
-    left: 47%;
-    height: 3px;
-    background: var(--primary-color);
-}
 
 .about-text h3 {
     position: relative;
