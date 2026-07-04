@@ -53,14 +53,13 @@ header {
 }
 
 .logo {
-    font-family: 'playfair display', serif;
     font-size: 1.8rem;
     font-weight: 800;
     color: var(--heading-color);
 
 }
 
-.logo span {
+.logo span { 
     color: var(--primary-color);
 }
 
