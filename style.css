@@ -159,7 +159,7 @@ button {
     border-radius: 38px;
     border: none;
     cursor: pointer;
-    transition: transform 0.3;
+    transition: transform 0.3s ease;
     background: transparent;
     border: 2px solid var(--primary-color);
 
@@ -168,7 +168,7 @@ button {
 
 .third-btn:hover {
     background-color: var(--button-hover);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     background-color: var(--button-hover);
 
 }
@@ -181,14 +181,24 @@ button {
     border-radius: 38px;
     border: none;
     cursor: pointer;
-    transition: transform 0.3;
+    transition: transform 0.3s ease;
     background: transparent;
     border: 2px solid var(--primary-color);
 }
 
 .first-btn:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     background-color: var(--button-hover);
+}
+.first-btn-primary{
+    padding: 0.9rem 40px ;
+    margin-right: 0.6rem;
+    font-size: 1.3rem;
+    transition: 0.3s ease;
+}
+.first-btn-primary:hover{
+    background-color: var(--button-hover);
+    transform: translateY(-3px);
 }
 
 .sec-btn {
@@ -199,12 +209,12 @@ button {
     border-radius: 38px;
     border: none;
     cursor: pointer;
-    transition: transform 0.3;
+    transition: transform 0.3s ease;
 
 }
 
 .sec-btn:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     background-color: var(--button-hover);
 }
 
@@ -459,8 +469,6 @@ button a {
     color: var(--heading-color);
 
 }
-
-
 
 .input-content input:hover{
     border: 2px solid var(--primary-hover);
